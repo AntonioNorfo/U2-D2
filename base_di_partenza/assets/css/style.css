@@ -7,7 +7,12 @@ body {
   background-image: url("../img/sfondo.png");
   background-position: center center;
 }
-
+body a {
+  position: relative;
+  color: #00a0c6;
+  text-decoration: none;
+  width: 40%;
+}
 * {
   box-sizing: border-box;
 }
