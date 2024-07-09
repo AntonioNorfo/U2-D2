@@ -315,7 +315,8 @@ aside div {
 
 @media screen and (min-width: 1200px) {
   #line {
-    margin-left: 50%;
+    margin-left: 40%;
+    width: 50%;
   }
 
   aside div {
