@@ -29,6 +29,18 @@ header {
   padding: 2em 1.5em;
 }
 
+.heading-container {
+  position: relative;
+}
+
+#line {
+  position: absolute;
+  width: 90%;
+  top: 90%;
+  z-index: 9;
+  opacity: 0.6;
+}
+
 @media screen and (min-width: 800px) {
   header {
     padding: 1em;
@@ -61,6 +73,13 @@ header {
     margin-bottom: 0;
   }
 }
+#line {
+  position: absolute;
+  width: 47%;
+  top: 85%;
+  left: 41%;
+  opacity: 0.6;
+}
 
 header nav ul {
   margin: 0;
@@ -91,6 +110,7 @@ main {
   padding: 2em 1em;
   margin-bottom: 1.5em;
 }
+
 @media screen and (min-width: 700px) {
   main {
     padding: 2em;
@@ -113,13 +133,14 @@ section h2 {
   background-color: #a3a3a3;
   padding: 0px 1em;
 }
-
 /* ELEMENTI NEL MAIN - ARTICLE */
 
 h1 {
   font-size: 2.6rem;
   line-height: 1.2;
   font-weight: bold;
+  z-index: 90;
+  position: relative;
   letter-spacing: -0.03em;
   margin-bottom: 0.7em;
 }
@@ -314,9 +335,17 @@ aside div {
 }
 
 @media screen and (min-width: 1200px) {
-  #line {
-    margin-left: 40%;
-    width: 50%;
+  section {
+    height: 265px;
+  }
+  section h2 {
+    display: inline;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 900;
+    position: relative;
+    bottom: 50px;
+    box-shadow: 1px 1px 4px 1px;
   }
 
   aside div {
