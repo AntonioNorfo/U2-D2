@@ -6,12 +6,22 @@ body {
   padding: 15px;
   background-image: url("../img/sfondo.png");
   background-position: center center;
-}
-body a {
   position: relative;
+}
+.icone {
+  display: inline-block;
+  position: absolute;
   color: #00a0c6;
   text-decoration: none;
-  width: 40%;
+  top: 10px;
+}
+
+.icone1 {
+  display: inline-block;
+  position: absolute;
+  color: #00a0c6;
+  text-decoration: none;
+  top: 40px;
 }
 * {
   box-sizing: border-box;
